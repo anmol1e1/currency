@@ -1,4 +1,4 @@
-# Currency_Converter
+# Currency Converter
 
 Currency Converter (USD <-> CAD <-> EUR)
 
