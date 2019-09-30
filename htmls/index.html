@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+		<head>
+				<title>Currency Widget</title>
+				<meta charset="UTF-8">
+				<meta http-equiv="X-UA-Compatible" content="IE=11, chrome=1">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta name="title" content="Currency Widget">
+				<meta name="description" content="Convert Currencies">
+		</head>
+
+		<link href="../css/style.css" rel="stylesheet" type="text/css">
+
+		<body>
+				<div id="infoDiv" class="colverticalcenter colverticalalign heightxv widthxv maxheightxpc maxwidthxpc unseen">
+						<div class="padding2em maxwidthxpcminusmargins colverticalalign highlighthard">
+								<div id="info" class="maxwidthxpc breakword">
+								</div>
+
+								<button id="removeButton" class="margintop">
+										Ok
+								</button>
+						</div>
+				</div>
+
+				<div id="outer" class="colverticalcenter colverticalalign heightxv widthxv maxheightxpc maxwidthxpc">
+						<div id="inner" class="padding2em maxwidthxpcminusmargins highlighthard">
+								<div id="heading" class="fontbold">
+										Currency Converter
+								</div>
+
+								<div id="conversion">
+										<div id="subHeadingOne" class="fontsmall margintop">
+												Type in amount and select currency:
+										</div>
+
+										<div id="currencyOne" class="maxwidthxpc flexrow">
+												<input id="valOne" class="margintopsmallest marginrightsmall paddingleftverysmall" size="12" placeholder="amount"/>
+
+												<select id="optionOne" class="margintopsmallest">
+														<option value="cad"> CAD </option>
+														<option value="usd"> USD </option>
+														<option value="eur"> EUR </option>
+												</select>
+										</div>
+
+										<div id="subHeadingTwo" class="fontsmall margintopsmall">
+												Converted Amount:
+										</div>
+
+										<div id="currencyTwo" class="maxwidthxpc flexrow">
+												<input id="valTwo" class="margintopsmallest marginrightsmall paddingleftverysmall" size="12" placeholder="converted"/>
+
+												<select id="optionTwo" class="margintopsmallest">
+														<option value="usd"> USD </option>
+														<option value="cad"> CAD </option>
+														<option value="eur"> EUR </option>
+												</select>
+										</div>
+
+										<div class="horizend margintop">
+												<a id="disclaimer" href="">
+														Disclaimer
+												</a>
+										</div>
+								</div>
+						</div>
+				</div>
+		</body>
+
+		<!-- jquery file -->
+		<script src="../scripts/jquery.js" type="application/javascript">
+		</script>
+
+		<!-- this allows touch events to be coded as simply as click events in frontend js file -->
+		<script src="../scripts/fastclick.js" type="application/javascript">
+		</script>
+
+		<!-- this contains encoded API key from fixer.io -->
+		<script src="../scripts/keys.js" type="application/javascript">
+		</script>
+
+		<!-- frontend js file -->
+		<script src="../scripts/frontend.js" type="application/javascript">
+		</script>
+</html>
+
