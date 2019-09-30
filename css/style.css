@@ -1,0 +1,150 @@
+html,body,div,span{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heightxv {
+  height: 100vh;
+}
+
+.widthxv {
+  width: 100vw;
+}
+
+.maxheightxpc {
+  max-height: 100%;
+}
+
+.maxwidthxpc {
+  max-width: 100%;
+}
+
+.padding2em {
+  padding: 2em;
+}
+
+.paddingleftverysmall {
+  padding-left: 0.5em;
+}
+
+button:hover, select:hover{
+  cursor: pointer;
+}
+
+.maxwidthxpcminusmargins {
+  max-width: calc(100vw - 4em - 0.5em);
+}
+
+.highlighthard {
+  border: 2px solid rgba(0, 0, 0, 0.65);
+  border-collapse: collapse;
+}
+
+.breakword {
+  word-wrap: break-word;
+}
+
+.margintop {
+  margin-top: 2em;
+}
+
+.fontbold {
+  font-weight: bold;
+}
+
+.fontsmall {
+  font-size: 0.8em;
+  line-height: 1.6em !important;
+}
+
+.margintopsmall {
+  margin-top: 1em !important;
+}
+
+.margintopsmallest {
+  margin-top: 0.25em;
+}
+
+.marginrightsmall {
+  margin-right: 1em;
+}
+
+.fontsmall {
+  font-size: 0.8em;
+  line-height: 1.6em !important;
+}
+
+.horizend {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.flexrow {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.colverticalcenter {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colverticalalign {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -o-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unseen {
+  display: none;
+}
+
+* {
+  font-family: Arial, sans-serif;
+  font-display: swap;
+}
+
+*:not(button) {
+  line-height: 1.8rem;
+}
+
+* {
+  font-size: 1.05rem;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  image-rendering: crisp-edges;
+}
+
+*:not(a) {
+  color: rgba(0, 0, 0, 0.65) !important;
+}
